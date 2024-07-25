@@ -1,0 +1,35 @@
+table {
+    /*table-layout: fixed;
+    width: 100%;*/
+    border-collapse: collapse;
+    /*border: 3px solid purple;*/
+}
+
+th {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 0.5ex 0.5em;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 0.5ex 0.5em;
+}
+
+/* For creating sorting arrows
+
+th:hover:after {
+    visibility: visible;
+}
+
+thead th:after {
+    content: '';
+    float: right;
+    margin-top: 7px;
+    border-width: 0 0.5ex 0.5ex;
+    border-style: solid;
+    border-color: #404040 transparent;
+    visibility: hidden;
+}
+
+*/
